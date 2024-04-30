@@ -1,0 +1,12 @@
+services:
+  agent:
+    build: ./agent
+    container_name: agent
+    ports:
+      - "8000:8000"
+
+  app:
+    build: ./app
+    container_name: app
+    ports:
+      - "8080:8080"

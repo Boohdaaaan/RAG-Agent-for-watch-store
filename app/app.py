@@ -29,7 +29,7 @@ if prompt := st.chat_input("Message assistant..."):
 
     with st.chat_message("assistant"):
         # Define API endpoint and data to be sent
-        url = "http://localhost:8000/chat"
+        url = "http://agent:8000/chat"
         data = {"text": prompt}
         headers = {"Content-type": "application/json"}
 

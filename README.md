@@ -46,13 +46,13 @@ Equipped with essential tools, it streamlines customer interactions:
 
 * Create database
 ```bash
-  python src/create_db.py
+  python agent/create_db.py
 ```
 
 * Run project
 ```bash
-  python src/agent.py
-  streamlit run src/app.py
+  python agent/agent.py
+  streamlit run agent/app.py
 ```
 
 ## Acknowledgments

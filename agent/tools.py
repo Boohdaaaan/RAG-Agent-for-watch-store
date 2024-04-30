@@ -36,7 +36,7 @@ def format_phone(phone_number: str) -> str:
 retriever = db.as_retriever()
 info_retriever = create_retriever_tool(
     retriever,
-    "Information retriever",
+    "Information_retriever",
     "Searches and returns information about watches and shop.",
 )
 

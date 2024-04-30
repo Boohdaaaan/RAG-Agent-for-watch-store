@@ -54,4 +54,4 @@ def load_data(root_dir: str = 'data', chunk_size: int = 1000, chunk_overlap: int
 
 
 # Call the load_data function with specified parameters
-db = load_data('./data/', 1000, 100)
+db = load_data('data/', 1000, 100)
