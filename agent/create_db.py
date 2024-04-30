@@ -31,4 +31,4 @@ def main(db_path: str):
 
 
 if __name__ == "__main__":
-    main(db_path="../database.db")
+    main(db_path="database.db")

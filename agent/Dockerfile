@@ -9,5 +9,8 @@ COPY . /agent
 # Upgrade pip and install required Python packages from requirements.txt without caching
 RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
 
+# Initialize the database
+RUN python create_db.py
+
 # Command to run the application
 CMD ["uvicorn", "agent:app", "--host", "0.0.0.0", "--port", "8000"]
