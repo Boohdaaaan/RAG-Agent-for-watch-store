@@ -18,8 +18,7 @@ def main(db_path: str):
         surname TEXT NOT NULL,
         phone TEXT NOT NULL,
         city TEXT NOT NULL,
-        model TEXT NOT NULL,
-        watch_id INTEGER NOT NULL
+        model TEXT NOT NULL
         )""")
 
         # Create the 'feedback_records' table if it doesn't exist

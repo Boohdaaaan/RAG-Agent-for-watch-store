@@ -67,7 +67,7 @@ def order_placement(user_name: str = "", user_surname: str = "", phone_number: s
             return "You don't provide all necessary data."
 
             # Connect to the database and insert the order information
-    with sq.connect("../database.db") as con:
+    with sq.connect("database.db") as con:
         cur = con.cursor()
         cur.execute(
             "INSERT INTO orders (name, surname, phone, city, model) VALUES (?, ?, ?, ?, ?)",
@@ -89,7 +89,7 @@ def feedback_saver(user_feedback: str, feedback_sentiment: str):
     """
 
     # Connect to the database and insert the feedback information
-    with sq.connect("../database.db") as con:
+    with sq.connect("database.db") as con:
         cur = con.cursor()
         cur.execute(
             "INSERT INTO feedback_records (feedback_text, feedback_sentiment) VALUES (?, ?)",
