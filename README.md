@@ -21,7 +21,7 @@ Equipped with essential tools, it streamlines customer interactions:
 ## Usage
 
 ### Requirements
-* Python 3.10
+* Docker Compose
 
 ### Setup
 * Clone repository
@@ -34,26 +34,22 @@ Equipped with essential tools, it streamlines customer interactions:
   cd RAG-OpenAI-Agent-for-watch-store
 ```
 
-* Install dependencies
-```bash
-  pip install -r requirements.txt
-```
-
 * Set environment variable in the .env file (OpenAI API key)
 ```bash
   echo "OPENAI_API_KEY=your-api-key-goes-here" > .env
 ```
 
-* Create database
+* Start the application
 ```bash
-  python agent/create_db.py
+  docker-compose up
 ```
 
-* Run project
+* To shut down container
 ```bash
-  python agent/agent.py
-  streamlit run agent/app.py
+  docker-compose down
 ```
+
+Once the containers are up and running, you can access the application by navigating to http://localhost:8080 in your web browser.
 
 ## Acknowledgments
 
