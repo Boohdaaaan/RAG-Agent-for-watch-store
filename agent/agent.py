@@ -18,7 +18,7 @@ app = FastAPI()
 tools = [info_retriever, order_placement, feedback_saver]
 
 # Instantiating a ChatOpenAI instance with specified parameters
-llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
+llm = ChatOpenAI(model="gpt-4-0125-preview", temperature=0.5)
 
 # Memory configuration for conversation history
 memory = ConversationBufferWindowMemory(
