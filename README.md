@@ -18,6 +18,10 @@ Equipped with essential tools, it streamlines customer interactions:
 * __Feedback Saver__: Allows the agent to collect and store customer feedback along with its emotional tone (negative or positive).
 
 
+## Video Demonstration
+https://github.com/Boohdaaaan/RAG-OpenAI-Agent-for-watch-store/assets/112556009/a250ad94-9871-4587-90ed-6601726b5932
+
+
 ## Usage
 
 ### Requirements
