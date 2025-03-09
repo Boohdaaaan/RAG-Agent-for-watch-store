@@ -19,7 +19,7 @@ Equipped with essential tools, it streamlines customer interactions:
 
 
 ## Video Demonstration
-https://github.com/Boohdaaaan/RAG-OpenAI-Agent-for-watch-store/assets/112556009/a250ad94-9871-4587-90ed-6601726b5932
+https://github.com/Boohdaaaan/RAG-Agent-for-watch-store/assets/112556009/a250ad94-9871-4587-90ed-6601726b5932
 
 
 ## Usage
